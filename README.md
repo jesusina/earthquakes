@@ -1,1 +1,2 @@
 # earthquakes
+Code written to analysis the JUNEC Earthquake database.  Entire region is split into 23 x 23 subregions.  For an earthquake event occurring in that region, a signal is constructed that is proportional to the total energy released in that region in a given 90-day non-overlapping time window using Energy = 10^(3/2*M) for magnitude M.  Pearson correlation coefficients, r, are calculated for each pair of subregions and a network is drawn up, based on meeting a critical correlation r_c, to be specified in the network constructed.
